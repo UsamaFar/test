@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "*.tf": "hcl"
+  },
+  "[hcl]": {
+    "editor.defaultFormatter": "hashicorp.hcl",
+    "editor.formatOnSave": true
+  }
+}
