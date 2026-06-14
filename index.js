@@ -1,6 +1,1 @@
-const express = require('express');
-const app = express();
-app.get('/', (req, res) => {
-  res.send('<h1>Hello DevOps!</h1>');
-});
-app.listen(3000, () => console.log('App running on port 3000'));
+const express = require('express'); const app = express(); app.get('/', (req, res) => {  const html = `<!DOCTYPE html>...`;  res.send(html); }); app.listen(3000, () => console.log('App running on port 3000'));
